@@ -1,0 +1,33 @@
+body{height: 10000px;}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+img{width: 100%; height: 100%; object-fit: cover;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+/* 프리텐다드 폰트 */
+@font-face {
+	font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('./woff2/PretendardVariable.woff2') format('woff2-variations');
+}
+
+:root{
+  /* 컬러 가이드 */
+  --primary_light: #0baffa;
+  --primary_dark: #0b94d3;
+  --text_title: #1d1d1f;
+  --text_sub_title: #9E9EA2
+  --text_body: #b6b4b7;
+  --text_body_light: #D5D6D8;
+  --bg_color: #f5f5f7;
+  --accent_Y100: #ffbc6b;
+  --accent_Y200: #ff9f2b;
+  --accent_Y300: #ff8b00;
+  --Accent_color: #FF911D;
+  
+  /* 폰트 가이드 */
+    --main_font: 'Pretendard Variable';
+}
