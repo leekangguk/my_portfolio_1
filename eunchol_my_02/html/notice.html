@@ -1,1 +1,91 @@
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Notice</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <style>
+    .card-wrap {
+      width: 90%;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      padding: 40px 0;
+    }
+    .card-box {
+      width: 180px;
+      background: var(--bg_color);
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px 0;
+      box-sizing: border-box;
+    }
+    .img-box {
+      width: 180px;
+      height: 180px;
+      border-radius: 8px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-bottom: 12px;
+    }
+    .img-box.card1 { background-image: url('../images/main_card1.jpg'); }
+    .img-box.card2 { background-image: url('../images/main_card2.jpg'); }
+    .img-box.card3 { background-image: url('../images/main_card3.jpg'); }
+    .img-box.card4 { background-image: url('../images/main_card4.jpg'); }
+    .img-box.card5 { background-image: url('../images/main_card5.jpg'); }
+    .img-box.card6 { background-image: url('../images/main_card6.jpg'); }
+    .img-box.card7 { background-image: url('../images/main_card7.jpg'); }
+    .img-box.card8 { background-image: url('../images/main_card8.jpg'); }
+    .text-box {
+      width: 100%;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text_title);
+    }
+  </style>
+</head>
+<body>
+  <div class="card-wrap">
+    <div class="card-box">
+      <div class="img-box card1"></div>
+      <div class="text-box">Card 1 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card2"></div>
+      <div class="text-box">Card 2 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card3"></div>
+      <div class="text-box">Card 3 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card4"></div>
+      <div class="text-box">Card 4 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card5"></div>
+      <div class="text-box">Card 5 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card6"></div>
+      <div class="text-box">Card 6 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card7"></div>
+      <div class="text-box">Card 7 텍스트</div>
+    </div>
+    <div class="card-box">
+      <div class="img-box card8"></div>
+      <div class="text-box">Card 8 텍스트</div>
+    </div>
+  </div>
+</body>
+</html>
